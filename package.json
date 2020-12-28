@@ -1,23 +1,26 @@
 {
-  "name": "pokedex-material-ui",
+  "name": "react_typescript_starter_pack",
   "version": "1.0.0",
-  "description": "",
+  "description": "a starter pack for react and typescript built with webpack and babel",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=8081 NODE_ENV=development webpack serve --open 'Chrome'",
+    "start": "cross-env PORT=8000 NODE_ENV=development webpack serve --open 'Chrome' --hot",
     "build": "cross-env NODE_ENV=production webpack",
-    "lint":  "eslint  src/**/*.{js,jsx,ts,tsx}",
+    "lint": "eslint  src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint src/**/*.{js,jsx,ts,tsx} --fix"
-    
- 
   },
-  "author": "",
+  "author": "mayowDev",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
+    "@types/history": "^4.7.8",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.14",
+    "@types/react-router-dom": "^5.1.6",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "babel-loader": "^8.2.2",
@@ -40,10 +43,14 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3"
   }
 }

@@ -6,7 +6,7 @@ import './styles.scss';
 const App: React.FC = () => {
     return (
         <div>
-            <h1> webpack react</h1>
+            <h1> webpack change color</h1>
             <img src={img} />
         </div>
     );

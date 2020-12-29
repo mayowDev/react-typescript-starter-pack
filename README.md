@@ -64,6 +64,26 @@
 * File incons theme: `` Material icon Theme `` or `` vscode icons ``
 
 
+#### Exatcly copy my vscode exntesions (will update this list)
+ 
+
+- code --install-extension christian-kohler.npm-intellisense
+- code --install-extension DavidAnson.vscode-markdownlint
+- code --install-extension dbaeumer.vscode-eslint
+- code --install-extension donjayamanne.githistory
+- code --install-extension eamodio.gitlens
+- code --install-extension Equinusocio.vsc-material-theme
+- code --install-extension esbenp.prettier-vscode
+- code --install-extension formulahendry.terminal
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension PKief.material-icon-theme
+code --install-extension sdras.night-owl
+code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension xyz.local-history
+``
+
 ### Installation guide:-
 
  > Follow the steps below to use this starter pack :-

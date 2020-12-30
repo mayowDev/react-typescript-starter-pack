@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import img from './images/sample-profile.png';
+import img from './images/sample.webp';
 import './styles.scss';
 
 const App: React.FC = () => {
     return (
         <div>
-            <h1> webpack change color</h1>
+            <h1>  works from linux </h1>
             <img src={img} />
         </div>
     );

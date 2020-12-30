@@ -4,6 +4,9 @@ const Webpack = require('webpack')
 const path = require("path");
 
 module.exports={
+    target:'web', // or native app
+    mode:'development',
+    entry:'./src/index.tsx',
     output:{
         path:path.resolve(__dirname, 'build'),
         filename:'bundle.js'
@@ -27,7 +30,7 @@ module.exports={
                 use:[{loader:'html-loader'}]
             },
             {
-                test:/\.(png|jpe?g|gif)$/i,
+                test:/\.(png|webp|jpe?g|gif)$/i,
                 use:[{loader:'file-loader'}]
             },
             {
@@ -49,8 +52,13 @@ module.exports={
         })
 
     ],
+    devtool: 'inline-source-map',
     devServer:{
         historyApiFallback:true,
-        port:8000 
-    }
+        port:8000,
+        compress: true,
+        contentBase: path.join(__dirname, 'build'),
+        hot: true,
+    },
+
 }

@@ -64,7 +64,7 @@
 * File incons theme: `` Material icon Theme `` or `` vscode icons ``
 
 
-#### Exatcly copy my vscode exntesions (will update this list)
+#### Vscode exntesions used (will update this list)
  
 
 - code --install-extension christian-kohler.npm-intellisense
@@ -75,13 +75,13 @@
 - code --install-extension Equinusocio.vsc-material-theme
 - code --install-extension esbenp.prettier-vscode
 - code --install-extension formulahendry.terminal
-code --install-extension Gruntfuggly.todo-tree
-code --install-extension k--kato.intellij-idea-keybindings
-code --install-extension PKief.material-icon-theme
-code --install-extension sdras.night-owl
-code --install-extension shd101wyy.markdown-preview-enhanced
-code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension xyz.local-history
+- code --install-extension Gruntfuggly.todo-tree
+- code --install-extension k--kato.intellij-idea-keybindings
+- code --install-extension PKief.material-icon-theme
+- code --install-extension sdras.night-owl
+- code --install-extension shd101wyy.markdown-preview-enhanced
+- code --install-extension VisualStudioExptTeam.vscodeintellicode
+- code --install-extension xyz.local-history
 ``
 
 ### Installation guide:-
@@ -89,7 +89,7 @@ code --install-extension xyz.local-history
  > Follow the steps below to use this starter pack :-
 
 * Open your terminal and clone this repo:-   `` git clone https://github.com/mayowDev/react-typescript-starter.git ``
-* Change directory to react-typescript-starter:-  `` cd react-typescript-starter ``
+* Change directory to react-typescript-starter:-  `` cd react-typescript-starter-pack ``
 * Install the dependencies:-  ``npm install``
 
 * Run the project on localhost:8000:- `` npm run start``

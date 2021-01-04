@@ -82,13 +82,14 @@
 - code --install-extension shd101wyy.markdown-preview-enhanced
 - code --install-extension VisualStudioExptTeam.vscodeintellicode
 - code --install-extension xyz.local-history
-``
+
+
 
 ### Installation guide:-
 
  > Follow the steps below to use this starter pack :-
 
-* Open your terminal and clone this repo:-   `` git clone https://github.com/mayowDev/react-typescript-starter.git ``
+* Open your terminal and clone this repo:-   `` git clone https://github.com/mayowDev/react-typescript-starter-pack.git ``
 * Change directory to react-typescript-starter:-  `` cd react-typescript-starter-pack ``
 * Install the dependencies:-  ``npm install``
 
